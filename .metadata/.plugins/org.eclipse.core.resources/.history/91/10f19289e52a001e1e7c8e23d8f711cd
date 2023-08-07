@@ -1,0 +1,35 @@
+package org.test;
+
+public class Student {
+	
+	public static void main(String[] args){
+		
+		String s = "Hello World@132";
+	
+		int caps = 0, small = 0, numbers = 0, special = 0;
+		
+		for(int i = 0; i < s.length(); i++){
+			char c = s.charAt(i);
+			if(c >='A' && c<='Z'){
+				caps++;
+			}
+			else if(c >='a' && c<='z'){
+				small++;
+			}
+			else if(c >='0' && c<='9'){
+				numbers++;
+			}
+			else{
+				special++;
+			}
+		}
+		System.out.println(caps);
+		System.out.println(small);
+		System.out.println(numbers);
+		System.out.println(special);
+	}
+}
+
+
+
+

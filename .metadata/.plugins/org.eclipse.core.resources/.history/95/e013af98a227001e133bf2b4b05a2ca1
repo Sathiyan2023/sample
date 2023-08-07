@@ -1,0 +1,22 @@
+package org.array;
+
+public class ArraySub_Split {
+	
+	public static void main(String[] args){
+		
+		String s = "Yume O Akiramete Shinde Kure";
+		
+		String s1 = s.substring(0, 7);				//Print based the value given
+		System.out.println(s1);
+		
+		String[] s2 = s.split(" ");					//Splits with For Loop
+		for(int i = 0; i < s2.length; i++){
+			System.out.println(s2[i]);
+		}
+		
+		String[] s3 = s.split("Yume");					//Split with Enhanced For Loop
+		for (String x : s3) {
+			System.out.println(x);
+		}
+	}
+}

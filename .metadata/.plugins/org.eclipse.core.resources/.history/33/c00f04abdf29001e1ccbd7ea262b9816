@@ -1,0 +1,28 @@
+package org.workout;
+
+public class Levi {
+
+	public static void main(String[] args){
+		int a[] = new int[5];
+		
+		a[0] = 20;
+		a[1] = 10;
+		a[2] = 50;
+		a[3] = 80;
+		a[0] = 100;
+
+		int temp;
+		
+		for(int i = 0; i < a.lengthl; i++){
+			for(int j = 1+i; j < a.length; j++){
+				if(a[i] > a[j]){
+					temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+
+				}
+			}
+			System.out.println(a[(a.length)-2]);
+		}
+	}
+}

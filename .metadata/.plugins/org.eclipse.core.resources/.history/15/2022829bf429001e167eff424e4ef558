@@ -1,0 +1,26 @@
+package org.workout;
+
+import java.util.Map;
+import java.util.Set;
+import java.util.HashMap;
+
+public class Levi {
+
+	public static void main(String[] args) {
+
+		Map<String, Integer> m = new HashMap<>();
+
+		m.put("Apple", 90000);
+		m.put("Samsung", 93000);
+		m.put("Apple", 60000);
+		m.put("MI", 70000);
+
+		System.out.println(m);
+		
+		Set<String> ks = m.keySet();
+		System.out.println(ks);
+		
+
+	}
+
+}

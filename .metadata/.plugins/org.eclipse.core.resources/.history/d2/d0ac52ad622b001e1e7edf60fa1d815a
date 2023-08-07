@@ -1,0 +1,15 @@
+package org.test;
+
+public class School {
+	
+	public static void main(String[] args){
+		
+		String s = "Hello World";
+		
+		String[] s1 = s.split("o");
+		for(String x : s1){
+			System.out.println(x);
+		}
+}
+}
+

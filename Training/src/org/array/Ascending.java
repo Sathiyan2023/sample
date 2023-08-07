@@ -1,0 +1,29 @@
+package org.array;
+
+public class Ascending {
+
+	public static void main(String[] args) {
+
+		int a[] = new int[5];
+
+		a[0] = 70;
+		a[1] = 90;
+		a[2] = 30;
+		a[3] = 60;
+		a[4] = 120;
+		
+		int temp;									//without Arrays.sort
+		
+		for(int i = 0; i < a.length; i++){
+			for(int j = 1+i; j < a.length; j++){
+				if(a[i] > a[j]){
+					temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
+			System.out.println(a[i]);
+		}
+	}
+}
+

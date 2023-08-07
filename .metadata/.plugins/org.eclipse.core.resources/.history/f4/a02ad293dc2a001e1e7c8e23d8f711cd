@@ -1,0 +1,24 @@
+package org.test;
+
+public class Standard extends School {
+	
+	@Override
+	public void student() {
+		System.out.println("Student Name: ");
+	}
+	
+	@Override
+	public void std() {
+		
+		System.out.println("Student Standard");
+	}
+	
+	public static void main(String[] args){
+		Standard s1 = new Standard();
+		s1.std();
+	}
+}
+
+
+
+

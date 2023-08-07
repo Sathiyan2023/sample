@@ -1,0 +1,11 @@
+package org.test;
+
+public class Section  {
+	
+	public void sec(){
+		System.out.println("Student Section");
+	}
+	
+	
+	
+}

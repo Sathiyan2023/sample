@@ -1,0 +1,40 @@
+package org.workout;
+
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.Collection;
+import java.util.HashMap;
+
+public class Levi {
+
+	public static void main(String[] args) {
+
+		Map<String, Integer> m = new HashMap<>();
+
+		m.put("Apple", 90000);
+		m.put("Samsung", 93000);
+		m.put("Apple", 60000);
+		m.put("MI", 70000);
+
+		System.out.println(m);
+		
+		Set<String> ks = m.keySet();			//Prints only key 
+		System.out.println(ks);
+		
+		Collection<Integer> v = m.values();		//Prints only value
+		System.out.println(v);
+		
+		Set<Entry<String, Integer>> es = m.entrySet();
+		for (Entry<String, Integer> e : es) {
+			System.out.println(e);
+			System.out.println(e.getKey());
+			System.out.println(e.getValue());
+		}
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package org.workout;
+
+public class Standard extends School {
+
+	public void std() {
+		System.out.println("Student Standard");
+	}
+
+	public static void main() {
+		Standard s = new Standard();
+		s.name();
+		s.std();
+	}
+
+}

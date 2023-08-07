@@ -1,0 +1,29 @@
+package org.test;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		String s1 = "Yume";
+		String s2 = "Yume";
+		
+		String con = s1.concat(s2);
+		
+		System.out.println("Literal String");
+		System.out.println(System.identityHashCode(s1));
+		System.out.println(System.identityHashCode(s2));
+		System.out.println("Immutable String");
+		System.out.println(System.identityHashCode(con));
+		
+		String s3 = new String(s1);
+		String s4 = new String(s2);
+		System.out.println("Non-Literal String");
+		System.out.println(System.identityHashCode(s3));
+		System.out.println(System.identityHashCode(s4));
+		
+		
+		
+		
+		
+	}
+}

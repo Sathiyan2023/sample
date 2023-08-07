@@ -1,0 +1,11 @@
+package org.workout;
+
+public class Levi {
+
+public static void main(String[] args){
+		
+		String s = "Hello World";
+		int b = s.compareTo("HellO WorlD");
+		System.out.println(b);
+	}
+}

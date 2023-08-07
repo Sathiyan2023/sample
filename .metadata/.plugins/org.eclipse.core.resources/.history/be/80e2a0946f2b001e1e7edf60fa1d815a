@@ -1,0 +1,21 @@
+package org.test;
+
+public class Student extends School {
+
+	public static void main(String[] args){
+		int a = 70, b = 90;
+		int temp;
+		
+		temp = a;
+		a = b;
+		b = temp;
+		
+		System.out.println("After Swapping value of a: "+a);
+		System.out.println("After Swapping value of b: "+b);
+	}
+}
+
+
+
+
+

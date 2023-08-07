@@ -1,0 +1,33 @@
+package org.constructor;
+
+public class College extends School {
+	
+	public College(){	
+		this(true);
+		System.out.println("Default Constructor");
+	}
+	
+	public College(int ID){
+		
+		System.out.println("Integer Constructor");
+	}
+	
+	public College(String Name){
+		this (97.96f);
+		System.out.println("String Constructor");
+	}
+	
+	public College(float percent){
+		this(47);
+		System.out.println("Float Constructor");
+	}
+	
+	public College(boolean attendence){
+		this("Shiva");
+		System.out.println("Boolean Constructor");
+	}
+	
+	public static void main(String[] args){
+		College c = new College();
+	}
+}

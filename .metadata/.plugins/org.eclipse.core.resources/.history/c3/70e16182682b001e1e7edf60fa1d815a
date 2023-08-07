@@ -1,0 +1,27 @@
+package org.test;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		Set<Integer> s = new TreeSet<>();
+		
+		s.add(70);
+		s.add(30);
+		s.add(40);
+		s.add(30);
+		s.add(50);
+		
+		boolean c = s.contains(100);
+		System.out.println(c);
+	}
+}
+
+

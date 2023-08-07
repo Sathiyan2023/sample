@@ -1,0 +1,22 @@
+package org.workout;
+
+public class Levi {
+
+	public static void main(String[] args){
+		
+		int a = 122, i = 0, j = 0;
+		int n = a;
+
+		while(n > 0){
+			i = n % 10;
+			j = (j*10)+i;
+			n = n/10;
+		}	
+		if(a == j){
+			System.out.println("Palindrome Number: "+j);
+		}
+		else{
+			System.out.println("Not a Palindrome Number: "+j);
+		}
+	}
+}

@@ -1,0 +1,12 @@
+package org.test;
+
+public class Student {
+
+	public static void main(String[] args){
+
+		String s ="Hello World";
+		
+		String[] s1 = s.split("r");
+		System.out.println(s1);
+	}
+}

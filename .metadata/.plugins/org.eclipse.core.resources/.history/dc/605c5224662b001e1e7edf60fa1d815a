@@ -1,0 +1,21 @@
+package org.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		List l  = new ArrayList();
+		
+		l.add(10);
+		l.add(true);
+		l.add('h');
+		l.add(15.2f);
+		
+		System.out.println(l);
+		
+	}
+}
+

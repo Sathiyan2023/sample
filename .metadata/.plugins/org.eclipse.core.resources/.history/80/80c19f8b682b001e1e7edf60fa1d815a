@@ -1,0 +1,22 @@
+package org.test;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		Map<String, Integer> m = new HashMap<>();
+		
+		m.put("Redmi", 10000);
+		m.put("Redmi", 30000);
+		m.put("Samsung", 50000);
+		
+		System.out.println(m);
+		
+		
+	}
+}
+
+

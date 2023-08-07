@@ -1,0 +1,12 @@
+package org.array;
+
+public class demo {
+	
+	public static void main(String[] args){
+		
+		String s = "Java Program Session";
+		
+		String[] s1 = s.split(" ", 4);
+		System.out.println(s1);
+	}
+}

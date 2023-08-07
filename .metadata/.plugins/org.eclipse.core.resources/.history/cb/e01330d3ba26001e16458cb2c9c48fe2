@@ -1,0 +1,45 @@
+package org.constructor;
+
+public class College {
+	
+	public College(){	
+		System.out.println("Default Constructor");
+	}
+	
+	public College(int ID){
+		System.out.println("Integer Constructor");
+	}
+	
+	public College(String Name){
+		System.out.println("String Constructor");
+	}
+	
+	public College(float percent){
+		System.out.println("Float Constructor");
+	}
+	
+	public College(boolean attendence){
+		System.out.println("Boolean Constructor");
+	}
+	
+	public static void main(String[] args){
+		College c = new College();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,25 @@
+package org.string;
+
+public class StringMethodsSet1 {
+	
+	public static void main(String[] args){
+		
+		String s = "Yume O Akiramete Shinde Kure!";
+		
+		int l = s.length();
+		System.out.println("Length of String: "+l);
+		
+		char c = s.charAt(5);
+		System.out.println(c+"\n");
+		
+		for(int i = 0; i < s.length(); i++){			
+			char c1 = s.charAt(i);
+			System.out.println(c1);
+		}
+		
+		char[] c2 = s.toCharArray();
+		for(int i = 0; i < s.length(); i++){
+			System.out.println(c2[i]);
+		}
+	}
+}

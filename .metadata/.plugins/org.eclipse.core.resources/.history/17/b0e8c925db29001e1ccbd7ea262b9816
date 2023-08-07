@@ -1,0 +1,21 @@
+package org.workout;
+
+public class Levi {
+
+	public static void main(String[] args){
+		
+		int a = 30, b = 90, c = 0;
+
+		System.out.println("Value of a: "+a);
+		System.out.println("Value of b: "+b);
+		System.out.println("After Swapping....");
+		
+		c=a;
+		a=b;
+		b=c;
+		
+		System.out.println("Value of a: "+a);
+		System.out.println("Value of b: "+b);
+		
+	}
+}

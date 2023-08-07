@@ -1,0 +1,42 @@
+package org.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		List l  = new ArrayList();
+		
+		l.add(10);
+		l.add(true);
+		l.add('h');
+		l.add(15.2f);
+		l.add(10);
+		
+		System.out.println(l);
+		
+		l.add(900);
+		System.out.println(l);
+		
+		int io = l.indexOf('h');
+		System.out.println(io);
+		
+		int lio = l.lastIndexOf(10);
+		System.out.println(lio);
+		
+		boolean con = l.contains(7412863l);
+		System.out.println(con);
+		
+		l.set(2, 600);
+		System.out.println(l);
+		
+		l.add(1, 200);
+		System.out.println(l);
+		
+		
+	}
+}
+
+

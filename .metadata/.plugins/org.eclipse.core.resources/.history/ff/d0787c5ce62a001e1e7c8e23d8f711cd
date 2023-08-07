@@ -1,0 +1,26 @@
+package org.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Student {
+	
+	public static void main(String[] args){
+		
+		List l = new ArrayList();
+		
+		l.add(10);			//a[0]
+		l.add(true);			//a[1]
+		l.add("Manoj");
+		l.add('S');
+		l.add(96.6f);
+		l.add(900000000000000l);
+		
+		System.out.println(l);
+		
+	}
+}
+
+
+
+

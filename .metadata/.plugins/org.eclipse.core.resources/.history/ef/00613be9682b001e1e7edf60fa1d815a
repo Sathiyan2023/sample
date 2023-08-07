@@ -1,0 +1,30 @@
+package org.test;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
+import java.util.TreeMap;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		Map<String, Integer> m = new TreeMap<>();
+		
+		m.put("Redmi", 70000);
+		m.put("Redmi", 10000);
+		m.put("Samsung", 30000);
+		
+		Set<Entry<String, Integer>> es = m.entrySet();
+		
+		for(Entry<String, Integer> x : es){
+			System.out.println(x);
+		}
+		
+		
+	}
+}
+
+

@@ -1,0 +1,8 @@
+package org.workout;
+
+public class School {
+	
+	public void name() {
+		System.out.println("Student Name");
+	}
+}

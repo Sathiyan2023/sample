@@ -1,0 +1,25 @@
+package org.test;
+
+public class Standard extends School {
+	
+	
+	public void student(String name) {
+		System.out.println("Name: "+name);
+	}
+	
+	
+	public void student(int mark, char grade) {
+		System.out.println("Mark: "+mark);
+		System.out.println("Grade: "+grade);
+	}
+	
+	public static void main(String[] args){
+		Standard s1 = new Standard();
+		s1.student("Manoj");
+		s1.student(96, 'S');
+	}
+}
+
+
+
+

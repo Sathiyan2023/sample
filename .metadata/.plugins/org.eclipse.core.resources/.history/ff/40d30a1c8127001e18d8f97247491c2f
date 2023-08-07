@@ -1,0 +1,28 @@
+package org.array;
+
+public class SecondMax {
+	
+	public static void main(String[] args){
+		
+		int a[] = new int[5];
+		
+		a[0] = 300;
+		a[1] = 600;
+		a[2] = 900;
+		a[3] = 1200;
+		a[4] = 1500;
+		
+		int temp;
+		
+		for(int i = 0; i < a.length; i++){
+			for(int j = 1+i; j < a.length; j++){
+				if(a[i] > a[j]){
+					temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
+		}
+		System.out.println("Second Maximum No.: "+a[a.length-5]);
+	}
+}

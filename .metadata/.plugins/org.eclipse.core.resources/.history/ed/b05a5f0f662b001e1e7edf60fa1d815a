@@ -1,0 +1,18 @@
+package org.test;
+
+public class School {
+
+	public static void main(String[] args) {
+		
+		Object a[] = {5, 6, 7, 9, "zh"};
+		
+		for (Object object : a) {
+			System.out.println(object);
+		}
+		
+		
+		
+		
+	}
+}
+

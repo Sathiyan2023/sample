@@ -1,0 +1,14 @@
+package org.test;
+
+public class Standard {
+	
+	public void std(){
+		System.out.println("Student Standard");
+	}
+	
+	
+}
+
+
+
+

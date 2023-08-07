@@ -1,0 +1,12 @@
+package org.test;
+
+public class Standard extends School{
+	
+	public void std(){
+		System.out.println("Student Standard");
+	}
+}
+
+
+
+

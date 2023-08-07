@@ -1,0 +1,21 @@
+package org.workout;
+
+public class Levi {
+
+	public static void main(String[] args) {
+
+		for (int i = 1; i <= 100; i++) {
+			int a = i, j = 0, k = 0;
+			int n = a;
+
+			while (n > 0) {
+				j = n % 10;
+				k = (k * 10) + j;
+				n = n / 10;
+			}
+			if (a == k) {
+				System.out.println(k);
+			}
+		}
+	}
+}

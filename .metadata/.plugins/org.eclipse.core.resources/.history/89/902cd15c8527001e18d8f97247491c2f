@@ -1,0 +1,33 @@
+package org.string;
+
+public class StringMethodsSet2 {
+
+	public static void main(String[] args) {
+
+		String s = "Yume O Akiramete Shinde Kure!";
+		
+		String uc = s.toUpperCase();
+		System.out.println("In Upper Case: "+uc);
+		
+		String lc = s.toLowerCase();
+		System.out.println("In Lower Case: "+lc);
+		
+		boolean e = s.isEmpty();
+		System.out.println("Is String empty (T/F): "+e);
+		
+		String s1 = "     Yume O Akiramete      ";
+		String t = s1.trim();
+		System.out.println(t);
+		
+		String r = s.replace("Yume", "Give");
+		System.out.println("After Replacing: "+r);
+		
+		int i = s.indexOf("O");
+		int i1 = s.lastIndexOf("e");
+		System.out.println("Index of 'O': "+i);
+		System.out.println("Last Index of: "+i1);
+		
+		
+		
+	}
+}

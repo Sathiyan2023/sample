@@ -1,0 +1,14 @@
+package org.workout;
+
+public class Levi {
+
+	public static void main(String[] args) {
+
+		int n = 16;
+		if (n % 2 == 0) {
+			System.out.println("Even Number: " + n);
+		} else {
+			System.out.println("Odd Number: " + n);
+		}
+	}
+}
